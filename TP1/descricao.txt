@@ -1,0 +1,80 @@
+UNIVERSIDADE FEDERAL DE MINAS GERAIS
+Instituto de Ciências Exatas
+Departamento de Ciência da Computação
+
+DCC207 -- Algoritmos 2
+Prof. Renato Vimieiro
+
+Trabalho Prático 1 -- Geometria Computacional
+
+Objetivos
+---------
+
+Nesse trabalho serão abordados os aspectos práticos de algoritmo de geometria
+computacional. Especificamente, avaliaremos as implementações dos algoritmos
+para computação da envoltória convexa de um conjunto de pontos no plano.
+
+O objetivo principal é que os alunos presenciem as dificuldades inerentes
+da implementação dos algoritmos vistos em sala de aula. Os alunos deverão
+tomar decisões e/ou investigar quanto a melhor representação dos dados, e
+estruturas mais adequadas para a implementação dos algoritmos.
+
+Como objetivo secundário, os alunos deverão ter contato com bibliotecas
+para construção de gráficos. Assim, será possível também visualizar o
+funcionamento dos algoritmos passo-a-passo. Esse aspecto tem o objetivo
+pedagógico de fixar o funcionamento dos algoritmos.
+
+
+Tarefas
+-------
+
+Os alunos deverão implementar a Varredura de Graham, o Algoritmo de embrulho
+para presente (marcha de Jarvis), e o Algoritmo Incremental para computação
+da envoltória convexa.
+
+Os algoritmos deverão ser implementados em Python 3. As soluções deverão ser
+implementadas em Jupyter Notebooks, acompanhadas de suas descrições (explicações
+dos algoritmos e detalhes da implementação).
+
+A visualização dos algoritmos deverá ser construída com o auxílio da biblioteca
+Holoviews. Deverão ser criadas animações dinâmicas dos algoritmos, ao estilo
+das criadas nesse exemplo 
+https://nbviewer.jupyter.org/github/Gordon90s/holoviews_visualization_project/blob/master/Mathematical%20Visualization%20-%20Report.ipynb?
+
+Os widgets criados deverão permitir gerar os pontos pela distribuição normal 
+com parâmetros definidos pelo usuário. Eles deverão ter mecanismos para o
+usuário executar o algoritmo passo a passo, podendo, dessa forma, visualizar
+a execução do algoritmo. Por fim, eles deverão ter uma opção para executar
+todo o algoritmo. Nesse caso, as atualizações dos passos deverão ter um
+atraso (sleep) com tempo definido pelo usuário (padrão 0,5 segundos).
+
+O uso de bibliotecas adicionais deve ser discutido com o professor.
+
+O que entregar?
+---------------
+
+Deve ser entregue o notebook com a implementação, e qualquer arquivo que dê
+suporte a execução dos exemplos. O mesmo notebook deve ser colocado em um
+repositório no GitHub. O link para o repositório também deverá ser enviado
+na entrega.
+
+Política de Plágio
+------------------
+
+Os alunos podem, e devem, discutir soluções sempre que necessário. Dito isso,
+há uma diferença bem grande entre implementação de soluções similares e cópia
+integral de ideias. Trabalhos copiados na íntegra ou em partes de outros alunos
+e/ou da internet serão prontamente anulados. Caso hajam dois trabalhos copiados
+por alunos diferentes, ambos serão anulados.
+
+Datas
+-----
+
+Entrega Moodle: 18/10/2019
+
+Links de interesse
+------------------
+
+https://nbviewer.jupyter.org/github/Gordon90s/holoviews_visualization_project/blob/master/Mathematical%20Visualization%20-%20Report.ipynb?
+http://holoviews.org
+https://nbviewer.jupyter.org/github/if1015-datascience-ufpe/slides/blob/master/aula10-datavis-parte02.ipynb
