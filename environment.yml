@@ -1,0 +1,11 @@
+name: ALG2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - jupyter
+  - matplotlib
+  - numpy
+  - holoviews
+  - networkx
